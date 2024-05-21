@@ -5,7 +5,7 @@
     <div class="row row-cols-4">
         @foreach($movies as $movie)
         <div class="col">
-            <div class="movies">
+            <div class="border border-dark">
                 <h3>{{$book -> title}}</h3>
                 <p>{{$book -> date}}</p>
             </div>
